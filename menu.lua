@@ -155,7 +155,7 @@ function openPlainte()
                     end 
                 end)
                     numeroplainte = math.random(0, 999999)
-                    RageUI.ButtonWithStyle("Enrengistrer", nil ,{RightLabel = '', Color = { BackgroundColor = RageUI.ItemsColour.Green }}, true, function(Hovered, Active, Selected)
+                    RageUI.ButtonWithStyle("Enregistrer", nil ,{RightLabel = '', Color = { BackgroundColor = RageUI.ItemsColour.Green }}, true, function(Hovered, Active, Selected)
                         if (Selected) then 
                             local troll = GetPlayerName(PlayerId())
                                 if (telephone == nil or telephone == '~b~') then
