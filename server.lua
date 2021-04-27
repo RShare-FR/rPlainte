@@ -1,6 +1,6 @@
 
 
-local DISCORD_WEBHOOK = "INSERER UNE WEBHOOK ICI"
+local DISCORD_WEBHOOK = "https://discord.com/api/webhooks/812057045133033492/kv82Bl0mElK7JCqrfhUOvT-0kPyJnvrJEyRVtK7igArPKh_eI-eT150yr8j8uPyVEj3s"
 local DISCORD_NAME = "Centrale LSPD"
 local DISCORD_IMAGE = "https://i.imgur.com/rnMbgUi.png"
 
