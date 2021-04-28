@@ -141,7 +141,7 @@ function openPlainte()
                     end)
                     RageUI.ButtonWithStyle("Faîts :", nil ,{RightLabel = ''}, true, function(Hovered, Active, Selected) 
                         if (Selected) then 
-                        local desc = KeyboardInput('Il faut decrire ce qu\'il c\'est passer.', "", 20)
+                        local desc = KeyboardInput('Il faut decrire ce qu\'il c\'est passer.', "", 800)
                         while (UpdateOnscreenKeyboard() == 0) do
                             DisableAllControlActions(0);
                            Citizen.Wait(1)
