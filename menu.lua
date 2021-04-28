@@ -169,7 +169,7 @@ function openPlainte()
                                 elseif (texte == nil or texte == '~b~') then
                                 ESX.ShowNotification('~r~Veuillez remplir une description.')
                                 else
-                                TriggerServerEvent('plaintelspd', telephone, nprenom, contre, date, texte)
+                                TriggerServerEvent('plaintelspd', numeroplainte, telephone, nprenom, contre, date, texte, troll)
                                 RageUI.CloseAll()
                                 rPlainte = false
                                 ESX.ShowNotification('~b~Votre plainte a bien été enrengister. \nUn agent vous contactera.')
