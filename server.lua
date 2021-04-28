@@ -48,6 +48,6 @@ end
 
 
 RegisterServerEvent('plaintelspd')
-AddEventHandler('plaintelspd',function(message)
-    sendToDiscord("Centrale LSPD", '```' ..message.. '```', 16711680)
+AddEventHandler('plaintelspd',function(telephone, nprenom, contre, date, texte)
+    sendToDiscord("Centrale LSPD", '```'Numéro de téléphone : ' ..telephone.. '\n\nPrénom et nom : ' ..nprenom.. '\n\nÀ l\'encontre de : ' ..contre.. '\n\nDate des faîts : ' ..date.. '\n\nDescription : ' ..texte.. '\n\nNuméro de plainte : ' ..numeroplainte.. '\n\n\n(Utiliser en cas de troll) Pseudo Steam : ' ..troll'```', 16711680)
 end)
