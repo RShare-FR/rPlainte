@@ -169,7 +169,7 @@ function openPlainte()
                                 elseif (texte == nil or texte == '~b~') then
                                 ESX.ShowNotification('~r~Veuillez remplir une description.')
                                 else
-                                TriggerServerEvent('plaintelspd', 'Numéro de téléphone : ' ..telephone.. '\n\nPrénom et nom : ' ..nprenom.. '\n\nÀ l\'encontre de : ' ..contre.. '\n\nDate des faîts : ' ..date.. '\n\nDescription : ' ..texte.. '\n\nNuméro de plainte : ' ..numeroplainte.. '\n\n\n(Utiliser en cas de troll) Pseudo Steam : ' ..troll)
+                                TriggerServerEvent('plaintelspd', telephone, nprenom, contre, date, texte)
                                 RageUI.CloseAll()
                                 rPlainte = false
                                 ESX.ShowNotification('~b~Votre plainte a bien été enrengister. \nUn agent vous contactera.')
